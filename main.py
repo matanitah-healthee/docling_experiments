@@ -122,20 +122,6 @@ def format_comparison(docling_output, textract_output):
 {textract_output}
 
 {separator}
-                                   COMPARISON SUMMARY
-{separator}
-
-Docling: Uses MLX-optimized SmolDocling model for document structure recognition
-- Focuses on semantic document structure (headers, tables, text blocks)
-- Outputs structured DocTags format
-- Converts to clean Markdown with table formatting
-
-Textract: Amazon's cloud-based OCR and document analysis service  
-- Focuses on text extraction and basic table detection
-- Provides confidence scores for extracted elements
-- Good for text extraction but limited structure understanding
-
-{separator}
 """
     return comparison
 
